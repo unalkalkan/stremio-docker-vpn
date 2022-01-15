@@ -1,6 +1,6 @@
 # stremio-docker-vpn
 
-Stremio server in docker container that tunnels the traffic to a VPN container. This server also contains source code for stremio server `4.4.142`
+Stremio server in docker container that tunnels the traffic to a VPN container. This repository contains source code for stremio server `4.4.142`
 
 ### What is different from official stremio-server?
 When you run official stremio-server in docker with a VPN container in network mode, you get SSDP discovery errors and the server doesnt start. 
